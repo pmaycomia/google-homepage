@@ -1,8 +1,66 @@
 body {
-    height: 100%;
+    /* height: 100vh; */
     margin: 0;
     padding: 0;
     font-family: arial,sans-serif;
+}
+
+.navbar {
+    height: 54px;
+    padding: 6px;
+    width: 100%;
+    
+}
+
+.links-container {
+    float: right;   
+    
+    width: 320px;
+    height: 48px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-container, a {
+    text-align: center;
+    color: #000000DE;
+    font-size: 14px;
+    padding: 0 4px 0 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.mailimgs {
+    margin: 0 15px 0 0;;
+}
+
+.apps {
+    padding: 12px;
+}
+
+.apps:hover {
+    cursor: pointer;
+    background-color: rgb(236, 236, 236);
+    border-radius: 40px;
+}
+
+.signin {
+    margin: 0 8px;
+    padding: 9px 28px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.signin:hover {
+    
 }
 
 
