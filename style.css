@@ -71,9 +71,54 @@ a:hover {
     align-items: center;
 }
 
-.googlelogo {
+.searchbtncontainer {
+    padding: 20px;
+    max-height: 160px;
+
+
+}
+
+.search-bar {
+    border: 1px solid rgb(196, 196, 196);
+    height: 50px;
+    border-radius: 30px;
+    max-width: 582px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.search-bar:hover {
+    box-shadow: 5px 5px 5px rgba(207, 214, 218, 0.4);
+}
+
+.searchicon {
+    color: rgb(173, 172, 172);
+    margin: 12px 0 0 15px;
+    height: 24px;
+    width: 24px;
+}
+.micicon {
+    /* position: relative;
+    float: right; */
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin: 12px 15px 0 0 ;
     
     
 }
 
 
+.sbar {
+    display: inline;
+    background-color: transparent;
+    border: none;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    /* -webkit-tap-highlight-color: transparent; */
+
+    height: 34px;
+    font-size: 16px;
+
+}
