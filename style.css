@@ -64,4 +64,16 @@ a:hover {
     box-shadow: 0 2px 2px rgba(214, 232, 240, 0.4);
 }
 
+.logocontainer {
+    min-height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.googlelogo {
+    
+    
+}
+
 
