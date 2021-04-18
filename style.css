@@ -101,7 +101,7 @@ a:hover {
 
 }
 .micicon {
-    color: rgb(173, 172, 172);
+    color: rgb(59, 111, 223);
     height: 24px;
     width: 24px;
     float: right;
@@ -181,7 +181,7 @@ a:hover {
 .footer{
     background-color: rgb(242 242 242);
     color: rgb(114 117 122);
-    height: 15vh;
+    height: 20vh;
 }
 
 .country {
@@ -189,13 +189,10 @@ a:hover {
     align-items: center;
     justify-content: flex-start;
     border-bottom: 1px solid rgb(196, 196, 196);
-    margin: 0 0 0 40px;
+    padding: 0 0 0 40px;
 }
 
 .etcbottom{
-    /* display: flex;
-    align-items: center;
-    justify-content: space-around;  */
     padding: 0 40px;
 }
 
@@ -210,19 +207,39 @@ a:hover {
 .left {
     display: inline-block;
     padding: 15px;
-    /* align-items: center;
-    justify-content: flex-start;
-    flex-direction: row; */
 }
 
 .right {
     display: inline-block;
     float: right;
     padding: 15px;
-    /* align-items: center;
-    justify-content: flex-end; */
 }
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 952px) {
+    .offercontainer {
+        height: 28vh;
+    }
+
+    .footer{
+        height: 20vh;
+    }
+
+    .right, .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right{
+        float:none;
+    }
+    
+}
+
+@media only screen and (max-height: 700px) {
+
+    .offercontainer {
+        align-items: center;
+    }
 
 }
