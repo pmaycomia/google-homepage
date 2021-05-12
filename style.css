@@ -166,7 +166,7 @@ a:hover {
     justify-content: center;    
     font-size: 15px;
     color: black;
-    height: 33vh;
+    height: 31vh;
 }
 
 .french {
@@ -217,7 +217,7 @@ a:hover {
 
 @media only screen and (max-width: 952px) {
     .offercontainer {
-        height: 28vh;
+        height: 25vh;
     }
 
     .footer{
@@ -240,6 +240,13 @@ a:hover {
 
     .offercontainer {
         align-items: center;
+        height: 15vh;
+    }
+
+    .footer{
+        padding: 0;
+        margin: 0;
+        height: 30vh;
     }
 
 }
